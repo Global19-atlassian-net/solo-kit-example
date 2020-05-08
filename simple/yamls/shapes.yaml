@@ -1,0 +1,36 @@
+---
+apiVersion: simple.skv2.solo.io/v1alpha1
+kind: Circle
+metadata:
+  name: small-circle
+spec:
+  radius: 5.0
+
+---
+apiVersion: simple.skv2.solo.io/v1alpha1
+kind: Circle
+metadata:
+  name: large-circle
+spec:
+  radius: 15.0
+
+---
+
+
+apiVersion: simple.skv2.solo.io/v1alpha1
+kind: Square
+metadata:
+  name: small-square
+spec:
+  width: 5.0
+
+---
+apiVersion: simple.skv2.solo.io/v1alpha1
+kind: Square
+metadata:
+  name: large-square
+spec:
+  width: 15.0
+
+---
+

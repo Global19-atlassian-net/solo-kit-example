@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+// proto package should match group name
+package simple.skv2.solo.io;
+
+// go package should match generated package directory
+option go_package = "github.com/solo-io/solo-kit-example/simple/pkg/api/simple.skv2.solo.io/v1alpha1";
+
+// define our spec + status types below
+
+message CircleSpec {
+    float radius = 1;
+}
+
+message CircleStatus {
+    float area = 1;
+}
+
+message SquareSpec {
+    float width = 1;
+}
+
+message SquareStatus {
+    float area = 1;
+}
